@@ -1,2 +1,0 @@
-# mending-roots
-mendingroots.org
