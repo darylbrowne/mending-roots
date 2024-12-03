@@ -1,95 +1,61 @@
-
-<!DOCTYPE html>
-<html lang='en' class=''>
-
-<head>
-
-  <meta charset='UTF-8'>
-  <title>Mending Roots</title>
-
-  <meta name="robots" content="noindex">
-
-  <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
-  <link rel="mask-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111">
-  <link rel="canonical" href="https://codepen.io/P1N2O/pen/pyBNzX?editors=1111">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
 
-  <style id="INLINE_PEN_STYLESHEET_ID">
-    body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	-webkit-animation: gradient 15s ease infinite;
-	        animation: gradient 15s ease infinite;
-	height: 100vh;
-	  font-family: "Roboto Slab", serif;
-	  font-optical-sizing: auto;
-	  font-weight: 100;
-	  font-style: normal;
+    <title>Mending Roots</title>
 
-}
-	h1 {
-		font-size: 5vh;
-	}
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
 
-	h5 {
-		font-size: 2vh;
-	}
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+  </head>
 
-@-webkit-keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+  <body class="text-center">
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand tangerine-bold">Mending Roots</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#">Mission</a>
+            <a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=VQNKZ3UMAJN8A" target="_new">PayPal</a>
+            <a class="nav-link" href="https://venmo.com/mendingrootsorg" target="_new">Venmo</a>
+          </nav>
+        </div>
+      </header>
 
-  </style>
+      <main role="main" class="inner cover">
+        <img src="https://02b7cf4.netsolhost.com/images/mendingroots.png" width="50%" title="Mending Roots" alt="Mending Roots" />
+        <p class="lead">Our mission is to help those affected by the ongoing war in Ukraine, providing support, aid, and education. Mending Roots offers assistance to families and individuals in need so they can cover immediate expenses (food, shelter, medication, getting themselves to safety), as well as covering the needs as they rebuild their lives going forward. Working in close partnership with individuals on the ground in Ukraine, we fund our efforts through generous donations like yours.</p>
+        <p class="right">- Nastia Vanyukevych, Founder<br />mendingrootsorg[at]gmail.com</p>
+        <div class="btn-group">
+          <a href="https://www.paypal.com/donate/?hosted_button_id=VQNKZ3UMAJN8A" target="_new" class="btn btn-lg btn-outline-secondary">Donate via PayPal</a>
+          <a href="https://venmo.com/mendingrootsorg" target="_new" class="btn btn-lg btn-outline-secondary">Donate via Venmo</a>
+        </div>
+      </main>
 
-  
-<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-2c7831bb44f98c1391d6a4ffda0e1fd302503391ca806e7fcc7b9b87197aec26.js"></script>
-<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-6d8bf8b4b479137260842506acbb12717dace0823c023e08b96360e60b0840d9.js"></script>
-<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-44fe83e49b63affec96918c9af88c0d80b209a862cf87ac46bc933074b8c557d.js"></script>
-<script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script>
-</head>
+      <footer class="mastfoot">
+        <div class="inner">
+          <p>&copy; 2025 Mending Roots Inc. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
 
-<body>
-  <div class="d-flex flex-column justify-content-center w-100 h-100">
 
-	<div class="d-flex flex-column justify-content-center align-items-center">
-		<h1 class="fw-light text-white m-0">Mending Roots</h1>
-		<div class="btn-group my-5">
-			<a href="#" class="btn btn-outline-light" aria-current="page"><i class="fas fa-pen-nib me-2"></i> DONATE</a>
-			<a href="#" class="btn btn-outline-light">LEARN MORE <i class="fas fa-book ms-2"></i></a>
-		</div>
-		<h5 class="fw-light text-white m-0">.: COMING SOON :.</h5>
-	</div>
-</div>
-</div>
-  
-  <script  src="https://cdpn.io/cpe/boomboom/pen.js?key=pen.js-d6c00359-4a63-96e1-6a9b-5353e0592d16" crossorigin></script>
-</body>
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="jquery-slim.min.js"><\/script>')</script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+  </body>
 </html>
