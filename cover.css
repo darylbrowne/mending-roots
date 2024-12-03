@@ -98,3 +98,9 @@ body {
   font-weight: 700;
   font-style: normal;
 }
+
+@media (max-width: 720px) {
+  p {
+    margin: 2rem;
+  }
+}
