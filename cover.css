@@ -101,6 +101,6 @@ body {
 
 @media screen and (max-width: 720px) {
   p.lead {
-    margin: auto 2rem auto;
+    padding: auto 2rem auto;
   }
 }
