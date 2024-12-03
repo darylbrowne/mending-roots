@@ -99,8 +99,8 @@ body {
   font-style: normal;
 }
 
-@media (max-width: 720px) {
-  p {
-    margin: 2rem;
+@media screen and (max-width: 720px) {
+  p.lead {
+    margin: auto 2rem auto;
   }
 }
