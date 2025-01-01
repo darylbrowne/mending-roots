@@ -29,6 +29,9 @@ body {
   color: #030;
   text-shadow: none;
 }
+.logo {
+  margin: 2rem 0;
+}
 
 .cover-container {
   max-width: 42em;
