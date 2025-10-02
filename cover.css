@@ -58,6 +58,7 @@ img.featurette-image-left {
 }
 .cover-container {
   max-width: 42em;
+  margin: auto;
 }
 
 .masthead {
@@ -126,4 +127,7 @@ img.featurette-image-left {
 }
 
 @media screen and (max-width: 720px) {
+  .btn-lg {
+    font-size: .75rem;
+  }
 }
